@@ -1,0 +1,127 @@
+/*
+    Corrección de estilos para adaptar template a esquema del IMSS
+ 
+    Created on : 31/10/2016, 05:12:44 PM
+    Author     : Dperez
+*/
+
+/* Esta clase ocaciona error de muestra de contenido en resol < 11080 */
+.wrapper{
+    overflow: visible !important;
+}
+header.main-header{
+    background-color: #6a4d93;
+}
+a {
+    color: #00b2a2;
+}
+a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #018478;
+}
+/* button.btn, */  .btn-success {
+    background-color: #00b2a2 !important;
+    border-color: #025f34 !important;
+}
+/*button.btn:hover, */  button.btn:active, .btn-success:hover, .btn-success:active, .btn-success.hover {
+    background-color: #00877b;
+}
+.btn-link{
+    color: #00b2a2;
+}
+.btn-link:hover{
+    color: #00877b;
+}
+btn-link:focus, .btn-link:hover {
+    text-decoration: none;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 0; 
+}
+tr.bg-info {
+    background-color: #6a4d93;
+    color: white;
+}
+
+.imss-no-margin-left, .widget-user-2 .widget-user-username, .widget-user-2 .widget-user-desc{
+    margin-left: 0px;
+}
+
+/*
+    Media queryes para resolución minima
+*/
+@media (max-width: 767px){
+    .navbar.navbar-static-top.imss-display-none{
+        display: none;
+    }
+}
+
+
+
+.imss-center-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.imss-background-green{
+    background-color: #00b2a2;
+}
+.imss-background-white{
+    background-color: #FFFFFF;
+}
+.imss-font-yellow{
+    color: #f0de22;
+}
+.imss-border-gray{
+    border: 1px solid #ddd;
+}
+.imss-border-right {
+    border-right: 1px solid #ddd;
+}
+.imss-border-left{
+    border-left: 1px solid #ddd;
+    margin-left: -1px;
+}
+.imss-border-bottom{
+    border-bottom: 1px solid #ddd;
+    margin-left: -1px;
+}
+.imss-no-border{
+    border: 0px solid rgba(0,0,0,0);
+}
+.imss-no-margin{
+    margin: 0;
+}
+.imss-return-link-top{
+    position: absolute;
+    top: 12px;
+}
+.imss-return-link-bottom{
+    position: relative;
+    bottom: -30px;
+}
+/*Para el menú lateral*/
+ul.sidebar-menu>li>a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imss-table-img-header{
+    display: table;
+    /*width: 100%;*/
+    border-collapse: separate;
+    border-spacing: 65px 12px;
+}
+.imss-table-row{
+    display: table-row;
+}
+.imss-table-cell{
+    display: table-cell;
+}

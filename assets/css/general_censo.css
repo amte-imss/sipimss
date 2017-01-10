@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-ago-2016, 13:56:50
+    Author     : LEAS
+*/
+
+.graph-info {
+    width: 590px;
+    margin-bottom: 10px;
+}
+
+.button-padding {
+    padding-top: 30px
+}
+
+.rojo {
+    color: #a94442
+}
+.panel-body table
+{
+    color: #000
+} 
+.pinfo{
+    padding-left:20px; padding-bottom: 20px;
+}
+
+.file {
+    visibility: hidden;  
+    position: absolute;
+}
+

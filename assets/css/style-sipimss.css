@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-ago-2016, 12:30:36
+    Author     : LEAS
+*/
+
+*{
+  margin:15;
+}
+/*header{
+  height:170px;
+  color:#FFF;
+  font-size:20px;
+  font-family:Sans-serif;
+  background:#009688;
+  padding-top:30px;
+  padding-left:50px;
+}*/
+.contenedor{
+  width:150px;
+  height:250px;
+  /*position:absolute;*/
+  position: fixed;
+  right:10px;
+  bottom:10px;
+}
+.botonF1{
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:#536dfe;
+  right:0;
+  bottom:0;
+  position:fixed;
+  margin-right:35px;
+  margin-bottom:50px;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:36px;
+  text-align: center;
+  vertical-align: central;
+  /*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;  
+}
+/*span{
+  transition:.5s;  
+}
+.botonF1:hover span{
+  transform:rotate(360deg);
+}
+.botonF1:active{
+  transform:scale(1.1);
+}
+.animacionVer{
+  transform:scale(1);
+}*/
+
+/*.btn{
+  width:40px;
+  height:40px;
+  border-radius:100%;
+  border:none;
+  color:#FF5722;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-size:28px;
+  outline:none;
+  position:absolute;
+  right:0;
+  bottom:0;
+  margin-right:26px;
+  transform:scale(0);
+}
+.botonF2{
+  background:#009688;
+  margin-bottom:85px;
+  transition:0.5s;
+}*/
+/*.botonF3{
+  background:#673AB7;
+  margin-bottom:130px;
+  transition:0.7s;
+}
+.botonF4{
+  background:#009688;
+  margin-bottom:175px;
+  transition:0.9s;
+}
+.botonF5{
+  background:#FF5722;
+  margin-bottom:220px;
+  transition:0.99s;
+}*/
