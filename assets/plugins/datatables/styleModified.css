@@ -1,0 +1,21 @@
+/* 
+    Created on : 4/10/2016, 07:59:36 PM
+    Author     : User
+
+    Modificaciones a las dataTables de dictamen
+*/
+/*tamaño para el contendor de la tabla*/
+.container{
+    width: 100%;
+}
+ /*quitar iconos de ordenamiento que se ensiman*/
+table.dataTable thead .sorting:after
+,table.dataTable thead .sorting_asc:after
+,table.dataTable thead .sorting_desc:after{
+    content: "";
+}
+/*botones de paginado muy separados*/
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 0;
+    margin-left: 0;
+}

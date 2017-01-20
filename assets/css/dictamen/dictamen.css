@@ -1,0 +1,21 @@
+.div-evaluador-icon-check{
+    display: inline-block;
+    width: 80%
+}
+.div-evaluador-calif{
+    display: inline-block;
+    width: 15%;
+    float: right;
+}
+.div-icons-flex{
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    align-content: center ;
+}
+.modal-title{
+    text-align: center;
+}
+
