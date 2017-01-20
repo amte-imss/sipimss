@@ -1,2 +1,4 @@
 application/config/
-application/config/*
+application/config/config.php
+application/config/
+application/config/database.php
